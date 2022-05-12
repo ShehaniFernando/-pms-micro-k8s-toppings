@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: topping-service-app
-        image: shamikhhameed/topping-service:0.0.1
+        image: shehaniFernando/topping-service:0.0.1
         imagePullPolicy: Always
         ports:
           - containerPort: 9003
